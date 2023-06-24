@@ -1,18 +1,18 @@
-const currentYear = new Date().getFullYear();
+export const currentYear = new Date().getFullYear();
+export const currentMonth = new Date().getMonth();
+const isLeapYear = currentYear % 4 === 0;
 
-const isLeapYear = currentYear % 4 === 0
-
-export const months = {
-  january: 31,
-  february: isLeapYear ? 29 : 28,
-  march: 31,
-  april: 30,
-  may: 31,
-  june: 30,
-  july: 31,
-  august: 31,
-  september: 30,
-  october: 31,
-  november: 30,
-  december: 31,
-}
+export const months = [
+    { name: 'january', days: 31 },
+    { name: 'february', days: isLeapYear ? 29 : 28 },
+    { name: 'march', days: 31 },
+    { name: 'april', days: 30 },
+    { name: 'may', days: 31 },
+    { name: 'june', days: 30 },
+    { name: 'july', days: 31 },
+    { name: 'august', days: 31 },
+    { name: 'september', days: 30 },
+    { name: 'october', days: 31 },
+    { name: 'november', days: 30 },
+    { name: 'december', days: 31 },
+];
