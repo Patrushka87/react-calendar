@@ -1,38 +1,52 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
 
-.grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto ;
-    grid-template-rows: 100px ;
-    padding-top: 3rem;
-    font-family: 'Roboto', sans-serif;
+.header-grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+}
+
+.header-grid-container > div {
+  display: flex;
+  align-items: center;
+}
+
+.header-grid-container :last-child {
+  justify-content: end;
+  grid-column: 5;
+}
+
+.calendar-grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto;
+  grid-template-rows: 100px;
+  padding-top: 3rem;
+  font-family: "Roboto", sans-serif;
 }
 
 .month {
-    font-size: 2rem;
-    font-family: 'Roboto', sans-serif;
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif;
 }
-    
+
 .button {
-    width: 3.5rem;
-    height: 2rem;
-    background-color: rgb(47, 47, 47);
-    border-radius: 1rem;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    text-decoration: none;
-    font-size: 14px;
-    cursor: pointer;
-    padding: 3px;
-    
+  width: 3.5rem;
+  height: 2rem;
+  background-color: rgb(47, 47, 47);
+  border-radius: 1rem;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  cursor: pointer;
+  padding: 3px;
 }
 .button:hover {
-    background-color: rgb(26, 26, 26);
-    color: rgb(8, 160, 255);
+  background-color: rgb(26, 26, 26);
+  color: rgb(8, 160, 255);
 }
 
 .flex-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-around; 
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
