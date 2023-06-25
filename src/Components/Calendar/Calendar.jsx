@@ -8,54 +8,53 @@ const Calendar = () => {
         <div>
             <div className='flex-container'>
                 <div className='month'>
-
-                    {months[currentMonth].name} - {
-                        currentYear
-                    }
-
+                    <button className='button'>{'<'}</button>
+                    {months[currentMonth].name} - {currentYear}
+                    <button className='button'>{'>'}</button>
                 </div>
                 <div>
-                    <button className='boton'>Back</button>  <button className='boton'>Next</button>
+                    <button className='button'>{'<'}</button>  <button className='button'> {'>'} </button>
                 </div>
 
             </div>
             <div className='grid-container'>
-                <div className='grid-item'>
 
+                <div className='grid-item'>
+                    Mon
+                </div>
+
+                <div className='grid-item'>
+                    Tue
+                </div>
+
+                <div className='grid-item'>
+                    Wed
+                </div>
+
+                <div className='grid-item'>
+                    Thu
+                </div>
+
+                <div className='grid-item'>
+                    Fri
+                </div>
+
+                <div className='grid-item'>
+                    Sat
+                </div>
+
+                <div className='grid-item'>
+                    Sun
+                </div>
+
+                <div className='grid-item'>
                     Grilla
                 </div>
-                <div className='grid-item'>
 
+                <div className='grid-item'>
                     Grilla
                 </div>
-                <div className='grid-item'>
 
-                    Grilla
-                </div>
-                <div className='grid-item'>
-
-                    Grilla
-                </div>
-                <div className='grid-item'>
-
-                    Grilla
-                </div>
-                <div className='grid-item'>
-
-                    Grilla
-                </div>
-                <div className='grid-item'>
-
-                    Grilla
-                </div>
-                <div className='grid-item'>
-
-                    Grilla
-                </div>
-                <div className='grid-item'>
-
-                    Grilla
-                </div>
                 <div className='grid-item'>
 
                     Grilla
