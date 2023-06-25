@@ -6,61 +6,69 @@ const Calendar = () => {
 
     return (
         <div>
-            <div>
-                {months[currentMonth].name} - {
-                    currentYear
-                }
+            <div className='flex-container'>
+                <div className='month'>
+
+                    {months[currentMonth].name} - {
+                        currentYear
+                    }
+
+                </div>
+                <div>
+                    <button className='boton'>Back</button>  <button className='boton'>Next</button>
+                </div>
+
             </div>
             <div className='grid-container'>
                 <div className='grid-item'>
 
-                Grilla
+                    Grilla
                 </div>
                 <div className='grid-item'>
 
-                Grilla
+                    Grilla
                 </div>
                 <div className='grid-item'>
 
-                Grilla
+                    Grilla
                 </div>
                 <div className='grid-item'>
 
-                Grilla
+                    Grilla
                 </div>
                 <div className='grid-item'>
 
-                Grilla
+                    Grilla
                 </div>
                 <div className='grid-item'>
 
-                Grilla
+                    Grilla
                 </div>
                 <div className='grid-item'>
 
-                Grilla
+                    Grilla
                 </div>
                 <div className='grid-item'>
 
-                Grilla
+                    Grilla
                 </div>
                 <div className='grid-item'>
 
-                Grilla
+                    Grilla
                 </div>
                 <div className='grid-item'>
 
-                Grilla
+                    Grilla
                 </div>
                 <div className='grid-item'>
 
-                Grilla
+                    Grilla
                 </div>
                 <div className='grid-item'>
 
-                Grilla
+                    Grilla
                 </div>
-                
+
             </div>
         </div>
     )
