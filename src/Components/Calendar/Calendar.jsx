@@ -23,7 +23,10 @@ const Calendar = () => {
             <div className="header-grid-container">
                 <div className="month">
                     <button className="button" disabled={selectedMonth <= 0} onClick={decrease}> {"<"} </button>
+                    <p className="months">
+
                     {months[selectedMonth].name}
+                    </p>
                     <button className="button" disabled={selectedMonth >= 11} onClick={increase}> {">"} </button>
                 </div>
 
@@ -33,7 +36,9 @@ const Calendar = () => {
 
                 <div className="month">
                     <button className="button">{"<"}</button>
-                    {currentYear}
+                    <p className="year">
+                        {currentYear}
+                    </p>
                     <button className="button"> {">"} </button>
                 </div>
             </div>

@@ -26,7 +26,13 @@
 .month {
   font-size: 2rem;
   font-family: "Roboto", sans-serif;
-  padding: 2px;
+  
+}
+.year {
+    padding: 1rem;
+}
+.months {
+    padding: 1rem;
 }
 
 
@@ -40,7 +46,7 @@
   text-decoration: none;
   font-size: 14px;
   cursor: pointer;
-  padding: 3px;
+  
 }
 .button:hover {
   background-color: rgb(26, 26, 26);
