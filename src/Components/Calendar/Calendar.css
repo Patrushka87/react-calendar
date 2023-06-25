@@ -26,10 +26,12 @@
 .month {
   font-size: 2rem;
   font-family: "Roboto", sans-serif;
+  padding: 2px;
 }
 
+
 .button {
-  width: 3.5rem;
+  width: 2rem;
   height: 2rem;
   background-color: rgb(47, 47, 47);
   border-radius: 1rem;
